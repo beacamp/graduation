@@ -1,0 +1,39 @@
+<%- include('partials/header.ejs') -%>
+
+<section class="graduates-page">
+  <div class="container graduate-card">
+    <h4 class="text-center batch-title">CLASS OF 2020</h4>
+    <div class="row text-center">
+      <% data.forEach((graduate)=>{ %>
+      <div class="col-sm-4">
+        <div class="card mt-3 rounded shadow-lg">
+          <img
+            class="card-img-top"
+            src="<%= graduate.img %>"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              I am <span class="graduate-name"><%= graduate.name %>,</span> a
+              <%= graduate.stack %> Web Engineer
+            </p>
+            <div>
+              <a href="<%= graduate.linkedin %>"
+                ><span class="fa fa-linkedin graduate-icon"></span
+              ></a>
+              <a href="<%= graduate.github %>"
+                ><span class="fa fa-github graduate-icon"></span
+              ></a>
+              <a href="<%= graduate.twitter %>"
+                ><span class="fa fa-twitter graduate-icon"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer.ejs') -%>

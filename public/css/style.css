@@ -1,138 +1,174 @@
 /* styles for header  */
-  .header{
-    position: fixed;
-    overflow: hidden;
-    z-index: 1;
-    width: 100%;
-    top: 0;
-  }
+
+.header {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
 /* styles for index  */
-  .width-fit{
-    width: 100%;
-  }
-  .graduation-banner{
-    margin-top: 5%;
-  }
-
-  .container .banner-paragraph-text{
-    font-size: 20px;
-  }
-
-   .banner-text a.btn-full{
-    background-color: blue;
-    color: white;
-    padding: 15px;
-  }
-  .banner-text a.btn-full:hover{
-    opacity: 0.8;
-    transition: .5s ease-in;
-  }
-
-  .grad-date{
-    height: 350px;
-    margin-top: 20px;
-    background-color: #032F62;
-  }
-  .grad-date .tadda-image img{
-    width: 60px;
-    margin-top: 70px;
-    margin-bottom: 40px;
-  }
-  .grad-date-text a{
-    color: #a0bde7; 
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .grad-date-text p{
-    color: white;
-    font-size: 20px;
-  }
-  .collaboration{
-    height: 600px;
-  }
-  .collaboration h6{
-    margin-top: 100px;
-    font-size: 22px;
-    font-weight: bold;
-  }
-  .collaboration img{
-    width: 150px;
-    margin-top: 30px;
-  }
-  .collaboration p{
-    font-size: 20px;
-    margin-top: 50px;
-  }
-
-  .speaker{
-    height: 700px;
-    background-color: #F6F8FA;
-  }
-  .speaker .speaker-header{
-    margin-top: 80px;
-    font-size: 14px;
-    
-  }
-  .speaker img{
-    width: 200px;
-    margin-top: 5px;
-  }
-  .speaker p{
-    font-size: 20px;
-    margin-top: 50px;
-   
-  }
-  .read-me{
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .graduation-repository img{
-    width: 70px;
-    margin-top: 30px;
-  }
-  hr{
-    width: 70%;
-    margin-top: 20px;
-  }
-
-  .join-social-media{
-    height: 350px;
-    font-size: 20px;
-  }
-  .join-social-media img{
-    width: 150px;
-  }
-
-
-
-/* styles for footer  */
-.footer-love-image{
-  width: 15px;
-
+.width-fit {
+  width: 100%;
+}
+.graduation-banner {
+  margin-top: 5%;
 }
 
-footer .footer-hosted{
-  font-size: 12px;
+.container .banner-paragraph-text {
+  font-size: 20px;
+}
+
+.banner-text a.btn-full {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+.banner-text a.btn-full:hover {
+  opacity: 0.8;
+  transition: 0.5s ease-in;
+}
+
+.grad-date {
+  height: 350px;
+  margin-top: 20px;
+  background-color: #032f62;
+}
+.grad-date .tadda-image img {
+  width: 60px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.grad-date-text a {
+  color: #a0bde7;
+  font-size: 18px;
   font-weight: bold;
 }
+.grad-date-text p {
+  color: white;
+  font-size: 20px;
+}
+.collaboration {
+  height: 600px;
+}
+.collaboration h6 {
+  margin-top: 100px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.collaboration img {
+  width: 150px;
+  margin-top: 30px;
+}
+.collaboration p {
+  font-size: 20px;
+  margin-top: 50px;
+}
 
-footer .footer-link a{
- color: whitesmoke;
- font-size:10px;
- font-weight: bold;
+.speaker {
+  height: 700px;
+  background-color: #f6f8fa;
+}
+.speaker .speaker-header {
+  margin-top: 80px;
+  font-size: 14px;
+}
+.speaker img {
+  width: 200px;
+  margin-top: 5px;
+}
+.speaker p {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.read-me {
+  font-size: 18px;
+  font-weight: bold;
+}
+.graduation-repository img {
+  width: 70px;
+  margin-top: 30px;
+}
+hr {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.join-social-media {
+  height: 350px;
+  font-size: 20px;
+}
+.join-social-media img {
+  width: 150px;
+}
+
+/* styles for footer  */
+.footer-love-image {
+  width: 15px;
+}
+
+footer .footer-hosted {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+footer .footer-link a {
+  color: whitesmoke;
+  font-size: 10px;
+  font-weight: bold;
+}
+.footer-link {
+  padding-bottom: 70px;
+}
+
+
+/* styles for graduates page  */
+/* styles for graduates page  */
+/* styles for graduates page  */
+
+.graduates-page .graduate-card {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.graduates-page .graduate-name {
+  color: #007bb6;
+}
+.graduates-page .graduate-icon {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  color: white;
+  background-color: #007bb6;
+}
+.graduate-icon:hover {
+  background-color: #517faf;
+  transition: 0.5s ease-in;
+}
+.graduate-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 27%;
+  margin-top: 20px;
+}
+.graduates-page .batch-title {
+  color: #007bb6;
+  font-weight: bold;
 }
 
 /* media query for responsiveness  */
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .collaboration {
-     height: 700px;
+    height: 700px;
   }
 
-  .speaker{
-    height:900px;
+  .speaker {
+    height: 900px;
   }
-  .graduation-banner{
+  .graduation-banner {
     margin-top: 20%;
   }
 }
