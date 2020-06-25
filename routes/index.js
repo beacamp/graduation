@@ -7,7 +7,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/graduates", (req, res) => {
-  const url = "https://rad5graduates.herokuapp.com/api";
+  const url = "https://rad5graduates.herokuapp.com/api/graduates";
   res.status(200);
   request(url, { json: true }, (err, response, body) => {
     if (err) {
