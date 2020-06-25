@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
   res.render("index");
 });
 
-router.get("/graduate", (req, res) => {
+router.get("/graduates", (req, res) => {
   const url = "https://rad5graduates.herokuapp.com/api";
   res.status(200);
   request(url, { json: true }, (err, response, body) => {
@@ -14,7 +14,7 @@ router.get("/graduate", (req, res) => {
       console.error(err);
     } else {
       const data = body.classOf2020;
-      res.render("graduate", { data });
+      res.render("graduates", { data });
     }
   });
 });
