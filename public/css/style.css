@@ -49,7 +49,7 @@
   font-size: 20px;
 }
 .collaboration {
-  height: 600px;
+  height: 500px;
 }
 .collaboration h6 {
   margin-top: 100px;
@@ -66,18 +66,34 @@
 }
 
 .speaker {
-  height: 700px;
-  background-color: #f6f8fa;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 50px;
 }
-.speaker .speaker-header {
-  margin-top: 80px;
-  font-size: 14px;
-}
+
 .speaker img {
   width: 200px;
   margin-top: 5px;
 }
-.speaker p {
+
+.speaker .speaker-header{
+  margin-top: 20px;
+}
+
+.manager {
+  height: 700px;
+  padding-top: 50px;
+  background-color: #f6f8fa;
+}
+/* .manager .speaker-header {
+  margin-top: 80px;
+  font-size: 14px;
+} */
+.manager img {
+  width: 200px;
+  margin-top: 5px;
+}
+.manager p {
   font-size: 20px;
   margin-top: 50px;
 }
