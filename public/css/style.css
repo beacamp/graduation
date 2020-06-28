@@ -181,8 +181,11 @@ footer .footer-link a {
     height: 700px;
   }
 
-  .speaker {
+  .manager {
     height: 900px;
+  }
+  .collaboration {
+    margin-bottom: 10px;
   }
   .graduation-banner {
     margin-top: 20%;
